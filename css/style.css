@@ -1,0 +1,287 @@
+/* custom code here */
+
+body {
+    background: #282828;
+    /* height: 200vh;; */
+}
+
+html, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.tm-white-bg {
+    background-color: #ffffff;
+}
+
+.tm-primary-color {
+    color: #ba2e1f;
+}
+
+.tm-container {}
+
+/******************* Top-Bar *******************/
+
+.tm-topbar {
+    background-color: #ba2e1f;
+    height: 40px;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.tm-topbar ul {
+    list-style: none;
+}
+
+.tm-topbar li {
+    float: left;
+    padding: 3px
+}
+
+.tm-topbar li a {
+    color: #ffffff
+}
+
+.tm-topbar li:nth-child(1)::before {
+    content: "";
+}
+
+.tm-topbar li::before {
+    content: "|";
+}
+
+.tm-topbar div:nth-child(2) {
+    padding-right: 30px;
+}
+
+.tm-topbar div:nth-child(2) form {
+    position: absolute;
+    right: 20px;
+}
+
+.tm-topbar div:nth-child(2) form input[type="text"] {
+    border-radius: 100px
+}
+
+.tm-topbar div:nth-child(2) a {
+    background-color: #ba2e1f;
+    border: none;
+    text-shadow: none;
+    position: absolute;
+    right: 7px;
+    top: 3px;
+    font-size: 10px;
+    width: 15%;
+    height: 80%;
+    line-height: 25px;
+    color: #ffffff
+}
+
+/******************* Header *******************/
+
+.tm-header {
+    height: 120px;
+    padding: 12px
+}
+
+.tm-header div {
+    padding-top: 40px;
+    padding-left: 20px
+}
+
+.tm-header div:nth-child(1) {
+    line-height: 0px;
+    color: #000;
+}
+
+.tm-header div:nth-child(1) h1 {
+    font-size: 44px
+}
+
+.tm-header div:nth-child(2) a {
+    background-color: #ba2e1f;
+    text-shadow: none;
+    border: none;
+    color: #ffffff
+}
+
+/******************* Nav bar *******************/
+
+.tm-navbar {
+    height: 50px;
+}
+
+.tm-navbar ul {
+    max-width: 90%
+}
+
+.tm-navbar .tm-active {
+    color: #ba2e1f;
+    text-shadow: none
+}
+
+.tm-navbar ul li a:hover {
+    text-shadow: none
+}
+
+.tm-navbar ul li a {
+    text-transform: uppercase
+}
+
+/******************* Slider *******************/
+
+.tm-slider {
+    height: 480px;
+}
+
+.tm-slider div {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.tm-slider h1 {
+    font-size: 80px;
+    padding-bottom: 20px
+}
+
+.tm-slider div:nth-child(2) p {
+    text-align: left;
+    font-size: 20px
+}
+
+.tm-slider div:nth-child(2) a {
+    padding-left: 400px
+}
+
+/******************* Content *******************/
+
+.tm-content {
+    height: 480px;
+    background-color: #f2f2f2;
+    padding: 8px
+}
+
+.tm-content h1 {
+    color: #333333;
+}
+
+.tm-content h2, h3, p {
+    color: #878787
+}
+
+.tm-content div:nth-child(1) h1, .tm-content div:nth-child(1) p {
+    text-align: left
+}
+
+.tm-content div:nth-child(1) {
+    text-align: center
+}
+
+.tm-content div:nth-child(1) a {
+    padding-left: 200px
+}
+
+.tm-content div:nth-child(2) div {
+    padding-top: 5px
+}
+
+.tm-content div:nth-child(2) a {
+    padding-left: 200px
+}
+
+.tm-content div:nth-child(3) div{
+    padding-top: 20px;
+}
+
+.tm-content div:nth-child(3) div blockquote{
+    text-align: center
+}
+
+.tm-content div:nth-child(3) div:nth-child(4) a{
+    padding-left: 200px;
+}
+
+
+/* custom blockquote */
+
+blockquote:before {
+    color: #d4d4d4  ;
+    position: absolute;
+    content: open-quote;
+    font-size: 7em;
+    margin-left: -0.7em;
+    margin-top: -0.1em;
+    line-height: 0.8;
+}
+
+blockquote:after{
+    content: close-quote;
+    color: transparent
+}
+
+blockquote p {
+    display: inline;
+}
+
+blockquote {
+    border-left: none
+}
+
+/******************* Footer *******************/
+
+.tm-footer {
+    height: 400px;
+}
+
+.tm-footer div.uk-width-1-4{
+    padding: 15px;
+}
+
+.tm-footer span{
+    color: #ba2e1f
+}
+
+.tm-footer ul li{
+    border-bottom: 1px solid #d4d4d4;
+    line-height: 22px;
+}
+
+.tm-footer ul{
+    list-style: none
+}
+
+.tm-footer ul li::before{
+    content: '\000BB';
+    padding-right: 12px
+}
+
+.tm-footer div:nth-child(3) p{
+font-size: 12px;
+line-height: 14px
+}
+
+.tm-footer div:nth-child(3) a{
+    padding-left: 130px
+}
+
+.tm-footer input[type="text"]{
+    background-color: #f2f2f2;
+}
+
+.tm-footer div:nth-child(4) div:nth-child(4) input[type="text"]{
+    height: 100px;
+    
+}
+
+.tm-footer button{
+    background-color: #f2f2f2;
+    text-shadow: none;
+    color: #ba2e1f
+}
+
+/******************* Copyright *******************/
+.tm-copyright{
+    height: 30px;
+    background-color: #f2f2f2;
+    padding: 15px
+}
